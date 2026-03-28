@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Data folder
+/data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# ChromaDB local storage
+chroma/
