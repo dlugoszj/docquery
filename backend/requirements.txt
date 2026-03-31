@@ -3,3 +3,5 @@ chromadb
 sentence-transformers
 pypdf
 python-dotenv
+python-docx
+torch
