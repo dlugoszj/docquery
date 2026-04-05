@@ -1,7 +1,11 @@
 anthropic
 chromadb
-sentence-transformers
+sentence-transformers<3.0
 pypdf
 python-dotenv
 python-docx
-torch
+torch==2.2.2
+numpy<2
+fastapi
+uvicorn
+python-multipart

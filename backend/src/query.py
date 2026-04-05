@@ -5,8 +5,11 @@ Handles embedding a user query, retrieving relevant chunks from the
 vector database, and generating an answer via the Anthropic API.
 """
 from sentence_transformers import SentenceTransformer
+from dotenv import load_dotenv
 import anthropic
 import chromadb
+
+load_dotenv(override=True)
 
 def embed_query(query: str):
     # Use sentence-transformers to generate an embedding vector for the user's query string
